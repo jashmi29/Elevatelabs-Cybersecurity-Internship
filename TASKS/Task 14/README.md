@@ -1,24 +1,30 @@
-This task focuses on monitoring and analyzing system and authentication logs to identify security threats and abnormal activities.
+This repository contains a report on Linux Server Hardening and Secure Configuration. The project demonstrates how an Ubuntu Server installed on VirtualBox was secured using industry-recommended security practices.
 
-What Was Done
-- Collected authentication and system logs
--Analyzed login attempts (successful and failed)
-Identified suspicious activities and anomalies
-Correlated multiple log events to understand attack patterns
+📄 Contents
+- Introduction to Server Hardening
+- Review of Default Linux System Settings
+- User Account Management
+- SSH Configuration and Root Login Restriction
+- System Updates and Automatic Security Updates
+- Firewall Configuration (UFW)
+- Disabling Unnecessary Services
+- File Permission Security
+- Log Monitoring and System Activity Review
+- Final Hardening Checklist
 
-Tools Used
-- Splunk – For log collection, monitoring, and visualization
-- GitHub logs / sample logs – Used as log data source
-- ChatGPT – Used to analyze log patterns and generate insights
+🔍 Learning & Research Sources I referred to:
+- GeeksforGeeks (GFG) – for understanding Linux commands and security concepts
+- Ubuntu Official Documentation – for configuration references
+- Google – for troubleshooting and additional explanations
+- ChatGPT – for conceptual clarity and structured understanding
 
-Key Analysis
-- Detected failed login attempts
-- Identified unusual login times and IP addresses
-- Observed patterns indicating brute-force or unauthorized access
-- Understood event correlation and alert generation
+🧠 Tools Used
+- Oracle VirtualBox – for creating the virtual Ubuntu environment
+- Ubuntu Server – operating system used for hardening
+- UFW (Uncomplicated Firewall) – firewall configuration
+- Fail2Ban – intrusion prevention tool
+- Lynis – security auditing tool
+- ChatGPT – research guidance and explanation support
 
-Learning Outcome
-- Basics of log monitoring and analysis
-- Understanding authentication logs
-- Introduction to SIEM concepts
-- Importance of alerts and real-time monitoring
+🎓 Purpose
+- The project helped in gaining practical knowledge of securing a Linux server by applying real-world hardening techniques in a controlled virtual environment.
