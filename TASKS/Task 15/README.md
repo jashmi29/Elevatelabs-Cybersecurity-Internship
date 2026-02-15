@@ -1,24 +1,25 @@
-This task focuses on monitoring and analyzing system and authentication logs to identify security threats and abnormal activities.
+Vulnerability Assessment and Risk Prioritization performed on an Ubuntu Virtual Machine using OpenVAS. The assessment focuses on identifying system vulnerabilities, analyzing them using CVE and CVSS scoring, and prioritizing risks based on severity and impact.
 
-What Was Done
-- Collected authentication and system logs
--Analyzed login attempts (successful and failed)
-Identified suspicious activities and anomalies
-Correlated multiple log events to understand attack patterns
+📄 Contents
+- Vulnerability Assessment overview
+- Installation and setup of OpenVAS
+- Scan configuration and execution
+- CVE (Common Vulnerabilities and Exposures) explanation
+- CVSS (Common Vulnerability Scoring System) explanation
+- Severity classification (Critical, High, Medium, Low)
+- Risk prioritization list
+- Recommended remediation steps
 
-Tools Used
-- Splunk – For log collection, monitoring, and visualization
-- GitHub logs / sample logs – Used as log data source
-- ChatGPT – Used to analyze log patterns and generate insights
+🔍 Learning & Research Sources I referred to:
+- OpenVAS official documentation
+- GeeksforGeeks – for vulnerability assessment concepts
+- Browser research for CVE & CVSS understanding
 
-Key Analysis
-- Detected failed login attempts
-- Identified unusual login times and IP addresses
-- Observed patterns indicating brute-force or unauthorized access
-- Understood event correlation and alert generation
+🧠 Tools Used
+- OpenVAS (Greenbone Vulnerability Manager) – for scanning
+- Oracle VM VirtualBox – for virtual lab setup
+- Ubuntu – target operating system
+- ChatGPT – for research assistance and content understanding
 
-Learning Outcome
-- Basics of log monitoring and analysis
-- Understanding authentication logs
-- Introduction to SIEM concepts
-- Importance of alerts and real-time monitoring
+🎓 Purpose
+- This work is part of my academic learning to understand how vulnerability assessments are performed in real-world environments and how risks are identified, classified, and prioritized for remediation.
