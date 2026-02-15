@@ -1,24 +1,20 @@
-This task focuses on monitoring and analyzing system and authentication logs to identify security threats and abnormal activities.
+Incident Response and Security Breach Simulation performed on an Ubuntu Virtual Machine. The task includes simulating a brute-force login attack, analyzing system logs, identifying suspicious activity, containing the threat, and restoring the system to a secure state.
 
-What Was Done
-- Collected authentication and system logs
--Analyzed login attempts (successful and failed)
-Identified suspicious activities and anomalies
-Correlated multiple log events to understand attack patterns
+📄 Contents
+- Incident Response overview
+- Failed login attack simulation
+- Log analysis using /var/log/auth.log
+- Incident classification
+- Containment and recovery steps
+- Root cause analysis
+- Preventive security measures
 
-Tools Used
-- Splunk – For log collection, monitoring, and visualization
-- GitHub logs / sample logs – Used as log data source
-- ChatGPT – Used to analyze log patterns and generate insights
+🧠 Tools Used
+- Ubuntu
+- Oracle VM VirtualBox
+- Linux system logs
+- UFW Firewall
+- ChatGPT
 
-Key Analysis
-- Detected failed login attempts
-- Identified unusual login times and IP addresses
-- Observed patterns indicating brute-force or unauthorized access
-- Understood event correlation and alert generation
-
-Learning Outcome
-- Basics of log monitoring and analysis
-- Understanding authentication logs
-- Introduction to SIEM concepts
-- Importance of alerts and real-time monitoring
+🎓 Purpose
+- This work is part of my academic learning to understand how security incidents are detected, analyzed, and handled using structured incident response procedures in a Linux environment.
