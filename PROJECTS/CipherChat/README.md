@@ -1,16 +1,15 @@
-CipherChat V2.0
+CipherChat V2.0 🔒
 
-Military-Grade Secure Messaging Protocol - A high-fidelity demonstration of end-to-end encryption (E2EE) using modern cryptographic standards and a split-screen tactical UI.
+**Military-Grade Secure Messaging Protocol** - A high-fidelity demonstration of end-to-end encryption (E2EE) using modern cryptographic standards and a split-screen tactical UI.
 
 🚀 Overview
-CipherChat is a "Zero-Trust" communication platform. It generates asymmetric RSA-2048 key pairs directly in the browser using the WebCrypto API. 
-Private keys are volatile—they are stored only in RAM and never touch the server.
+CipherChat is a "Zero-Trust" communication platform. It generates asymmetric RSA-2048 key pairs directly in the browser using the WebCrypto API. **Private keys are volatile—they are stored only in RAM and never touch the server.**
 
 🛠️ Security Architecture
-- Asymmetric Encryption: RSA-OAEP (2048-bit) for secure key exchange between peers.
-- Symmetric Encryption: AES-GCM (256-bit) for the actual message payloads.
-- Initialization Vectors: Unique 96-bit IVs generated for every single message block.
-- Zero-Knowledge Relay: The Node.js/Socket.io backend serves only as a traffic controller, relaying encrypted blobs without any ability to decrypt them.
+- **Asymmetric Encryption:** RSA-OAEP (2048-bit) for secure key exchange between peers.
+- **Symmetric Encryption:** AES-GCM (256-bit) for the actual message payloads.
+- **Initialization Vectors:** Unique 96-bit IVs generated for every single message block.
+- **Zero-Knowledge Relay:** The Node.js/Socket.io backend serves only as a traffic controller, relaying encrypted blobs without any ability to decrypt them.
 
 🖥️ Split-Screen Demonstration
 The interface features an **Alpha** and **Bravo** terminal view. Each panel acts as a completely isolated cryptographic client with its own:
@@ -20,7 +19,8 @@ The interface features an **Alpha** and **Bravo** terminal view. Each panel acts
 - Unique Identity Fingerprint
 
 📦 Getting Started
- 1. Installation
+
+1. Installation
 ```bash
 npm install
 ```
@@ -37,7 +37,7 @@ npm run dev
 ```
 
 4. Access the Terminal
-Visit `http://localhost:3000`. Enter your codename and establish a secure link.
+Visit https://cipher-chat-tau.vercel.app/. Enter your codename and establish a secure link.
 
 ⚙️ Deployment Guide
 Since Socket.IO requires a persistent server process:
