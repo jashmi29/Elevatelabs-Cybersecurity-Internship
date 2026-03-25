@@ -1,0 +1,17 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Abstract digital pattern",
+      "imageUrl": "https://picsum.photos/seed/insight1/1200/800",
+      "imageHint": "digital background"
+    },
+    {
+      "id": "default-preview",
+      "description": "Clean placeholder for image preview",
+      "imageUrl": "https://picsum.photos/seed/insight2/600/400",
+      "imageHint": "clean photography"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 232 15% 10%; /* #16171E */
+    --foreground: 0 0% 100%;
+    --card: 232 15% 12%;
+    --card-foreground: 0 0% 100%;
+    --popover: 232 15% 10%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 229 100% 78%; /* #8FA3FF */
+    --primary-foreground: 232 15% 10%;
+    --secondary: 187 75% 52%; /* #29CEE2 */
+    --secondary-foreground: 232 15% 10%;
+    --muted: 232 15% 20%;
+    --muted-foreground: 232 15% 70%;
+    --accent: 187 75% 52%; /* #29CEE2 */
+    --accent-foreground: 232 15% 10%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 232 15% 20%;
+    --input: 232 15% 20%;
+    --ring: 229 100% 78%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground selection:bg-primary/30;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.glass {
+  background: rgba(22, 23, 30, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+}
+
+.pixel-grid {
+  background-image: radial-gradient(circle, rgba(143, 163, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
