@@ -34,7 +34,7 @@ It serves as a centralized security operations center (SOC) dashboard for networ
 
 ## 🧠 AI Engine Architecture
 
-SentinelFlow utilizes a custom Genkit flow (`aiAnomalyInsightTool`) located in `src/ai/flows/`. This agent acts as a virtual security engineer, processing raw network data to produce structured threat intelligence.
+ Utilizes a custom Genkit flow (`aiAnomalyInsightTool`) located in `src/ai/flows/`. This agent acts as a virtual security engineer, processing raw network data to produce structured threat intelligence.
 
 ```typescript
 // Example Input Schema
