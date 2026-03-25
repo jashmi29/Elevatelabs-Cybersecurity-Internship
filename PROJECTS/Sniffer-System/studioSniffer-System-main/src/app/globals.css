@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 225 16% 12%;
+    --foreground: 210 20% 98%;
+    --card: 221 17% 17%;
+    --card-foreground: 210 20% 98%;
+    --popover: 225 16% 12%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 232 70% 54%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 221 17% 25%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 221 17% 25%;
+    --muted-foreground: 215 15% 75%;
+    --accent: 195 78% 66%;
+    --accent-foreground: 225 16% 12%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 221 17% 25%;
+    --input: 221 17% 25%;
+    --ring: 232 70% 54%;
+    --radius: 0.75rem;
+    --sidebar-background: 225 16% 10%;
+    --sidebar-foreground: 210 20% 98%;
+    --sidebar-primary: 232 70% 54%;
+    --sidebar-primary-foreground: 210 20% 98%;
+    --sidebar-accent: 221 17% 20%;
+    --sidebar-accent-foreground: 195 78% 66%;
+    --sidebar-border: 221 17% 20%;
+    --sidebar-ring: 232 70% 54%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.chart-gradient-primary {
+  background: linear-gradient(180deg, hsla(232, 70%, 54%, 0.3) 0%, hsla(232, 70%, 54%, 0) 100%);
+}
+
+.chart-gradient-accent {
+  background: linear-gradient(180deg, hsla(195, 78%, 66%, 0.3) 0%, hsla(195, 78%, 66%, 0) 100%);
+}
