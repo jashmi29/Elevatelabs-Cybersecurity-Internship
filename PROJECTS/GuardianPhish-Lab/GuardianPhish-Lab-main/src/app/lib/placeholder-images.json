@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "security-dashboard",
+      "description": "Cybersecurity analytics dashboard showing network traffic and threats.",
+      "imageUrl": "https://picsum.photos/seed/cyber1/800/600",
+      "imageHint": "cybersecurity dashboard"
+    },
+    {
+      "id": "phishing-training",
+      "description": "Educational image about identifying phishing emails.",
+      "imageUrl": "https://picsum.photos/seed/phish2/800/600",
+      "imageHint": "phishing education"
+    },
+    {
+      "id": "lock-secure",
+      "description": "Abstract digital lock representing data security.",
+      "imageUrl": "https://picsum.photos/seed/lock3/400/400",
+      "imageHint": "security lock"
+    }
+  ]
+}
